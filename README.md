@@ -1,43 +1,65 @@
+
 # Dev_Setup
 Setup Development Environment
-
 #Assignment: Setting Up Your Developer Environment
 
-#Objective:
-This assignment aims to familiarize you with the tools and configurations necessary to set up an efficient developer environment for software engineering projects. Completing this assignment will give you the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
+
 
 #Tasks:
 
 1. Select Your Operating System (OS):
-   Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
+   1.	Windows installation media. This could be an installation ISO or DVD.
+2.	I installed windows 10 as that is what is compatible with my pc.
+
+Challenges Encountered:
+-	The PC is old, it took longer to install. The best thing to do would be to get a new machine. 
+
+
+
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
-   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+   This is the perfect IDE needed suitable for flutter and dart. I installed it and then ran it as an administrator.
+After installing VS code I installed python, dart and flutter as extensions.
+
 3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+   I installed git bash. I created a github account, I set up the username and password.
+   after installing gitbash, I connected my github account to my gitbash by following this command: git config --global user .name "my name"
+   Ran the commond and then put in git config --global user .email.
+   ran the command git config --global push.default simple
+   added the SSH key to my github, theb tested the connection then it connected.s
 
 4. Install Necessary Programming Languages and Runtimes:
-  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+  1.	The first step was to look up python on the web, specifically for windows 10.
+2.	After downloading the installer, the next step was to  double-click the.exe file to start the Python installer (python-3.10.11 used). 
+3.	To make the Python launcher application accessible to  the computer, I Proceeded to select the option to Install the launcher for all users by checking the associated checkbox.
+4.	By selecting the Add python.exe to PATH checkbox, I can execute Python directly from the command line.
+5.	Then install.
+6.	I then went to my cmd , then checked for the version by using phython –version.
+7.	It was successfully stored on the machine.
+Challenge encountered: 
+Because my pc is a bit old, it took most of the day to install python. I also had to use py instead of python to get the version installed on my pc.
 
+Visual
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
 
 6. Configure a Database (MySQL):
-   Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+   I downloaded my SQL and chose the correct for my pc.
+   Launch the MySQL Installer for Windows after downloading it from https://dev.mysql.com/downloads/installer/.
+
+I custumized it by choosing the serves according to my needs and then I executed it.
+I Started the database and set up  my passwprd.
+
+I Opened the MySQL Command Line Client from cmd to confirm that MySQL is installed.
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
 
 8. Explore Extensions and Plugins:
-   Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+   I installed the extentions python, dark and flutter.
 
-9. Document Your Setup:
-    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
 
-#Deliverables:
-- Document detailing the setup process with step-by-step instructions and screenshots where necessary.
-- A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
-- A reflection on the challenges faced during setup and strategies employed to overcome them.
+
 
 #Submission:
 Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
@@ -49,4 +71,4 @@ Submit your document and GitHub repository link through the designated platform 
 - Clarity of reflection on challenges and solutions encountered.
 - Adherence to submission guidelines and deadlines.
 
-Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+
